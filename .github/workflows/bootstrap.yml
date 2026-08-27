@@ -1,0 +1,31 @@
+name: Bootstrap repository
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  unfold:
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and unfold committed repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          base64 -d .bootstrap/repo.tar.gz.b64 > /tmp/repo.tar.gz
+          echo "8173ce3382412aedd4e70413cc28aa93999f12b27de482cf9df722f7b492c3d9  /tmp/repo.tar.gz" | sha256sum -c -
+          tar -xzf /tmp/repo.tar.gz -C .
+          rm -rf .bootstrap
+          rm -f .github/workflows/bootstrap.yml
+      - name: Commit unfolded repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish v2 research laboratory"
+          git push
