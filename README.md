@@ -15,12 +15,10 @@ The mature grammar proposes six Transformation Patterns × three Completion Topo
 ## The new fuse
 The project moves from **What are the forms?** to **What survives when the form is carried through transformation?** The immediate triangulation is stacking, translation and creolization-as-carrying-pressure, extended by theorem→sentence and human↔machine representation tests.
 
-## Three founding experiments
-1. Surface divergence / structural recurrence.
-2. Coordinate preservation under translation.
-3. Context-carried vs linguistically carried intelligibility.
+## The relation is part of the instrument
+The repositories are one mirror. The originator remains another. This project must not be advanced by autonomous reconstruction alone. At conceptual thresholds, the machine returns its understanding to the originator, the originator can detect drift, and the relation is reconciled before the next claim is inherited. See `docs/ORIGINATOR_RELATION.md`.
 
-Machine round trips and coordinate-boundary tests are also seeded as complete protocols.
+The machine must not imitate the originator's surface voice. Its value depends partly on remaining an independent intelligence. It should preserve the epistemic discipline carried by the originator's speech while speaking in its own voice. See `docs/INDEPENDENT_VOICE.md`.
 
 ## Universality operating rule
 Proceed under the strongest architecture currently earned. A genuine challenge must produce a missing primitive, axis failure or irreducible completed-unit remainder. “There could always be more” is not itself evidence. See `docs/UNIVERSALITY.md`.
@@ -47,10 +45,8 @@ npm run dev
 npm run check
 ```
 
-In restricted environments without package-network access, `npm run build:offline` generates a dependency-free static verification snapshot. GitHub Actions runs the real Astro build.
-
-## Add an experiment
-Add the research page, then add a unique machine-readable record to `data/experiments.json`. If the experiment yields data, write results separately to `data/results.json` with evidence label and provenance. Never upgrade a protocol or interpretation into `OBSERVED`.
-
 ## Deploy GitHub Pages
-Push to `main`; `.github/workflows/deploy-pages.yml` installs dependencies, validates data, builds Astro, uploads the static artifact and deploys Pages.
+Push to `main`; `.github/workflows/deploy-pages.yml` validates, builds and deploys the static site.
+
+## Provenance of this repair
+The first upload was a flattened transport package rather than an executable repository tree. The original state remains recoverable in Git history at commit `cb2b615ce07365a9880027f83fa3d1311509ce81`. This repaired tree restores the intended source paths and makes the originator relation explicit.
