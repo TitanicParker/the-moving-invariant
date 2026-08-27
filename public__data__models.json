@@ -1,4 +1,0 @@
-{
-  "policy": "Record actual model names and versions at experiment time; never infer them from memory.",
-  "models": []
-}

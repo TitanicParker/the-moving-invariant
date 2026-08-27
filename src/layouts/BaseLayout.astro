@@ -1,0 +1,10 @@
+---
+import '../styles/global.css';
+const { title='The Moving Invariant', description='What survives when expression changes?' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const nav=[['Experiments','experiments'],['Stacking','stacking'],['Translation','translation'],['Methods','methods'],['Relation','originator'],['Failures','failures'],['Primitives','primitives'],['Provenance','provenance']];
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="description" content={description}><title>{title}</title></head><body>
+<header class="site-header"><div class="shell header-inner"><a class="brand" href={base}>The Moving Invariant</a><nav class="nav" aria-label="Primary">{nav.map(([label,slug]) => <a href={`${base}${slug}`}>{label}</a>)}</nav></div></header>
+<main class="shell"><slot /></main><footer><div class="shell">A public research laboratory on the persistence and transformation of completed intelligibility. Evidence, failure, provenance, structural challenge, and the originator relation are first-class parts of the method.</div></footer>
+</body></html>
