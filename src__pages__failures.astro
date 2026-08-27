@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import failures from '../../data/failures.json';
+---
+<BaseLayout title="Failures — The Moving Invariant"><section class="hero"><div class="eyebrow">Failure is first-class data</div><h1>Failures</h1><p class="lede">Rejected utterances, ambiguity, resolver disagreement, translation drift, canonical disagreement, contamination and candidate primitive remainders belong in the record rather than being silently repaired.</p></section><section><div class="grid">{failures.map(f=><article class="card"><div class="kicker">{f.evidence_label}</div><h3>{f.type}</h3><p>{f.description}</p><div class="meta">{f.failure_id} · {f.status}</div></article>)}</div></section><section><h2>Freeze first. Compare later.</h2><p class="research-copy">If a canonical record repeatedly loses against blind independent derivation, flag the canonical record. Do not tune prompts cell-by-cell to force agreement. Revise primitives only when repeated evidence identifies a general ambiguity, and use the smallest general correction.</p></section></BaseLayout>

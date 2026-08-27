@@ -1,0 +1,17 @@
+{
+  "name": "the-moving-invariant",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/build-search-index.mjs && astro build",
+    "preview": "astro preview",
+    "validate": "node scripts/validate-data.mjs",
+    "build:offline": "node scripts/static-build.mjs",
+    "check": "npm run validate && npm run build"
+  },
+  "dependencies": {
+    "astro": "^5.13.2"
+  }
+}

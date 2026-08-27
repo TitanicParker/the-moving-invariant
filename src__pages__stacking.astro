@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import utterances from '../../data/utterances/pixels-sample.json';
+import coords from '../../data/coordinates.json';
+const grouped = Object.entries(Object.groupBy(utterances, x=>x.coordinate_id));
+---
+<BaseLayout title="Stacking Laboratory — The Moving Invariant"><section class="hero"><div class="eyebrow">Stacking laboratory</div><h1>Surface divergence.<br/>Structural recurrence.</h1><p class="lede">A provenance-preserving initial corpus sample tests how much vocabulary and scene can move while a candidate coordinate remains recoverable.</p></section>
+<section><div class="callout"><strong>Source discipline:</strong> these utterances are imported verbatim from the cleaned <em>Pixels of Clarity</em> corpus. “Retained” means retained after that corpus's duplicate consolidation; it does not mean canonical or experimentally verified here.</div></section>
+<section><h2>Initial stacks</h2>{grouped.map(([id,items])=>{const c=coords.find(x=>x.id===id);return <article><h3>{id} — {c?.coordinate}</h3>{items?.map(u=><div class="stack-card"><span class="pill">{u.status}</span><p>“{u.text}”</p><div class="meta">{u.source}</div></div>)}</article>})}</section>
+<section><h2>Instrument requirements</h2><div class="grid"><article class="card"><h3>Compare two utterances</h3><p>Future UI state: place two same-cell utterances side by side while hiding coordinate vocabulary.</p></article><article class="card"><h3>Compare a neighbor</h3><p>Move one axis while holding two fixed. The target is discrimination, not superficial similarity.</p></article><article class="card"><h3>Make divergence visible</h3><p>Accepted, doubtful and rejected material must remain inspectable; no page should visually force agreement.</p></article></div></section></BaseLayout>

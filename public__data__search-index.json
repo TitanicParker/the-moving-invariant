@@ -1,0 +1,356 @@
+{
+  "generated": "2026-08-27T22:05:52.573Z",
+  "pages": [
+    "fuse",
+    "manifesto",
+    "grammar",
+    "stacking",
+    "translation",
+    "creolization",
+    "machine",
+    "experiments",
+    "results",
+    "corpus",
+    "methods",
+    "failures",
+    "primitives",
+    "provenance",
+    "questions",
+    "future",
+    "about"
+  ],
+  "coordinates": [
+    {
+      "id": "C01",
+      "coordinate": "Differentiation × Focal × Standing",
+      "canonical_crystallization": "Focal mark"
+    },
+    {
+      "id": "C02",
+      "coordinate": "Differentiation × Focal × Bearing",
+      "canonical_crystallization": "Binary bearing"
+    },
+    {
+      "id": "C03",
+      "coordinate": "Differentiation × Focal × Efficacy",
+      "canonical_crystallization": "Boundary act"
+    },
+    {
+      "id": "C04",
+      "coordinate": "Differentiation × Distributed × Standing",
+      "canonical_crystallization": "Scope standing"
+    },
+    {
+      "id": "C05",
+      "coordinate": "Differentiation × Distributed × Bearing",
+      "canonical_crystallization": "Context-bound mark"
+    },
+    {
+      "id": "C06",
+      "coordinate": "Differentiation × Distributed × Efficacy",
+      "canonical_crystallization": "Field separation"
+    },
+    {
+      "id": "C07",
+      "coordinate": "Differentiation × Release × Standing",
+      "canonical_crystallization": "Opposed standing"
+    },
+    {
+      "id": "C08",
+      "coordinate": "Differentiation × Release × Bearing",
+      "canonical_crystallization": "Graded contrast"
+    },
+    {
+      "id": "C09",
+      "coordinate": "Differentiation × Release × Efficacy",
+      "canonical_crystallization": "Exclusive cut"
+    },
+    {
+      "id": "C10",
+      "coordinate": "Opening × Focal × Standing",
+      "canonical_crystallization": "Source field"
+    },
+    {
+      "id": "C11",
+      "coordinate": "Opening × Focal × Bearing",
+      "canonical_crystallization": "Source-carried divergence"
+    },
+    {
+      "id": "C12",
+      "coordinate": "Opening × Focal × Efficacy",
+      "canonical_crystallization": "Branching output"
+    },
+    {
+      "id": "C13",
+      "coordinate": "Opening × Distributed × Standing",
+      "canonical_crystallization": "Alternate passage"
+    },
+    {
+      "id": "C14",
+      "coordinate": "Opening × Distributed × Bearing",
+      "canonical_crystallization": "Span-carried reach"
+    },
+    {
+      "id": "C15",
+      "coordinate": "Opening × Distributed × Efficacy",
+      "canonical_crystallization": "Field distribution"
+    },
+    {
+      "id": "C16",
+      "coordinate": "Opening × Release × Standing",
+      "canonical_crystallization": "Released option"
+    },
+    {
+      "id": "C17",
+      "coordinate": "Opening × Release × Bearing",
+      "canonical_crystallization": "Continual passage"
+    },
+    {
+      "id": "C18",
+      "coordinate": "Opening × Release × Efficacy",
+      "canonical_crystallization": "Edge opening"
+    },
+    {
+      "id": "C19",
+      "coordinate": "Relating × Focal × Standing",
+      "canonical_crystallization": "Direct bearing"
+    },
+    {
+      "id": "C20",
+      "coordinate": "Relating × Focal × Bearing",
+      "canonical_crystallization": "Pivoted balance"
+    },
+    {
+      "id": "C21",
+      "coordinate": "Relating × Focal × Efficacy",
+      "canonical_crystallization": "Responsive return"
+    },
+    {
+      "id": "C22",
+      "coordinate": "Relating × Distributed × Standing",
+      "canonical_crystallization": "Sequential link"
+    },
+    {
+      "id": "C23",
+      "coordinate": "Relating × Distributed × Bearing",
+      "canonical_crystallization": "Reciprocal shift"
+    },
+    {
+      "id": "C24",
+      "coordinate": "Relating × Distributed × Efficacy",
+      "canonical_crystallization": "Relational cycle"
+    },
+    {
+      "id": "C25",
+      "coordinate": "Relating × Release × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C26",
+      "coordinate": "Relating × Release × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C27",
+      "coordinate": "Relating × Release × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C28",
+      "coordinate": "Repair × Focal × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C29",
+      "coordinate": "Repair × Focal × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C30",
+      "coordinate": "Repair × Focal × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C31",
+      "coordinate": "Repair × Distributed × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C32",
+      "coordinate": "Repair × Distributed × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C33",
+      "coordinate": "Repair × Distributed × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C34",
+      "coordinate": "Repair × Release × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C35",
+      "coordinate": "Repair × Release × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C36",
+      "coordinate": "Repair × Release × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C37",
+      "coordinate": "Integration × Focal × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C38",
+      "coordinate": "Integration × Focal × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C39",
+      "coordinate": "Integration × Focal × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C40",
+      "coordinate": "Integration × Distributed × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C41",
+      "coordinate": "Integration × Distributed × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C42",
+      "coordinate": "Integration × Distributed × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C43",
+      "coordinate": "Integration × Release × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C44",
+      "coordinate": "Integration × Release × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C45",
+      "coordinate": "Integration × Release × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C46",
+      "coordinate": "Settlement × Focal × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C47",
+      "coordinate": "Settlement × Focal × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C48",
+      "coordinate": "Settlement × Focal × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C49",
+      "coordinate": "Settlement × Distributed × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C50",
+      "coordinate": "Settlement × Distributed × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C51",
+      "coordinate": "Settlement × Distributed × Efficacy",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C52",
+      "coordinate": "Settlement × Release × Standing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C53",
+      "coordinate": "Settlement × Release × Bearing",
+      "canonical_crystallization": null
+    },
+    {
+      "id": "C54",
+      "coordinate": "Settlement × Release × Efficacy",
+      "canonical_crystallization": null
+    }
+  ],
+  "experiments": [
+    {
+      "id": "EXP-001",
+      "title": "Surface Divergence / Structural Recurrence",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "EXP-002",
+      "title": "Coordinate Preservation Under Translation",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "EXP-003",
+      "title": "Context Carried vs Linguistically Carried",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "EXP-004",
+      "title": "Machine Round-Trip Invariance",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "EXP-005",
+      "title": "Coordinate Boundary / Minimal Change",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "EXP-006",
+      "title": "Creolization Case Studies",
+      "status": "FUTURE / REQUIRES LITERATURE FOUNDATION"
+    },
+    {
+      "id": "EXP-007",
+      "title": "Child / Developmental Invariance",
+      "status": "FUTURE / ETHICS + DESIGN REQUIRED"
+    },
+    {
+      "id": "EXP-008",
+      "title": "Speech vs Writing",
+      "status": "FUTURE"
+    },
+    {
+      "id": "EXP-009",
+      "title": "Nonlinguistic Completion",
+      "status": "FUTURE / OPERATIONALIZATION REQUIRED"
+    },
+    {
+      "id": "EXP-010",
+      "title": "Cross-Disciplinary Completion",
+      "status": "FUTURE"
+    },
+    {
+      "id": "EXP-011",
+      "title": "Institutional Persistence",
+      "status": "FUTURE"
+    },
+    {
+      "id": "EXP-012",
+      "title": "Human / Model Structural Fidelity Benchmark",
+      "status": "FUTURE"
+    }
+  ]
+}

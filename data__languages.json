@@ -1,0 +1,10 @@
+{
+  "scope": "Deliberately small, well-documented multilingual pilot when adequate competence/tooling is available.",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "status": "source corpus available"
+    }
+  ]
+}

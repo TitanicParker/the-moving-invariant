@@ -1,0 +1,6 @@
+import fs from 'node:fs';import path from 'node:path';
+const root=path.resolve(new URL('..',import.meta.url).pathname), out=path.join(root,'dist-offline');fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
+const routes=['','fuse','manifesto','grammar','stacking','translation','creolization','machine','experiments','results','corpus','methods','failures','primitives','provenance','questions','future','about'];
+const nav=routes.filter(Boolean).slice(0,8).map(r=>`<a href="../${r}/">${r}</a>`).join(' ');
+for(const route of routes){const dir=route?path.join(out,route):out;fs.mkdirSync(dir,{recursive:true});const title=route?route.replaceAll('-',' '):'The Moving Invariant';fs.writeFileSync(path.join(dir,'index.html'),`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>${title}</title><style>body{max-width:72ch;margin:8vh auto;padding:0 1rem;font:18px/1.65 Georgia,serif;background:#f3eddf;color:#25231f}nav{font:14px system-ui;display:flex;gap:.6rem;flex-wrap:wrap}a{color:inherit}h1{font-size:3rem}</style><nav>${nav}</nav><h1>${title}</h1><p>Offline verification snapshot for the Astro research publication. Source route: <code>/${route}</code>. The full GitHub Pages build is produced by Astro in CI.</p>`)}
+console.log(`Generated ${routes.length} offline route snapshots in dist-offline/`);

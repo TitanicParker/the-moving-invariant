@@ -1,0 +1,44 @@
+[
+  {
+    "id": "SRC-PERSISTENCE",
+    "class": "contemporaneous/later canonical artifact",
+    "title": "Persistence",
+    "url": "https://github.com/TitanicParker/persistence",
+    "note": "Canonical mature theory and publication architecture."
+  },
+  {
+    "id": "SRC-TYO",
+    "class": "independent experimental/pedagogical artifact",
+    "title": "Ten-Year-Old",
+    "url": "https://github.com/TitanicParker/ten-year-old",
+    "note": "Structureacy, Goldmine generation instrument, Pixels corpus, teaching method."
+  },
+  {
+    "id": "SRC-OPENING",
+    "class": "historical/methodological artifact",
+    "title": "The First Opening",
+    "url": "https://github.com/TitanicParker/The-first-opening",
+    "note": "Methodological continuity and source-bound construction lineage."
+  },
+  {
+    "id": "EXT-APICS",
+    "class": "external scholarly comparison",
+    "title": "Atlas of Pidgin and Creole Language Structures Online",
+    "url": "https://apics-online.info/about",
+    "note": "Comparative structural data for 76 pidgins, creoles and mixed languages; literature foundation only, not evidence for the 54."
+  },
+  {
+    "id": "EXT-MUFWENE-2022",
+    "class": "external scholarly comparison",
+    "title": "Linguistic Hybridization in the Emergence of Creoles",
+    "url": "https://www.cambridge.org/core/journals/cambridge-journal-of-postcolonial-literary-inquiry/article/linguistic-hybridization-in-the-emergence-of-creoles/BE56AA2BC8500F428DD860041059FC26",
+    "note": "Contact-language emergence framed through hybridization and population contact."
+  },
+  {
+    "id": "EXT-LIM-ANSALDO-2015",
+    "class": "external scholarly comparison",
+    "title": "Contact and creole formation",
+    "url": "https://www.cambridge.org/core/books/languages-in-contact/contact-and-creole-formation/AADEBA34D3AA30C7CAF84F44960E65BF",
+    "note": "Overview of competing approaches to contact and creole formation."
+  }
+]

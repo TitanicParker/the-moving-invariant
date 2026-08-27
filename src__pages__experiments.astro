@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import experiments from '../../data/experiments.json';
+---
+<BaseLayout title="Experiments — The Moving Invariant"><section class="hero"><div class="eyebrow">Experiment registry</div><h1>Experiments</h1><p class="lede">The registry separates proposed tests, future programmes and actual results. No unrun experiment is presented as evidence.</p></section><section><div class="grid">{experiments.map(e=><article class="card"><div class="kicker">{e.experiment_id}</div><h3>{e.title}</h3><span class="pill">{e.status}</span><p>{e.question}</p><div class="meta">{e.evidence_label}</div></article>)}</div></section></BaseLayout>

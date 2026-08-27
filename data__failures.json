@@ -1,0 +1,45 @@
+[
+  {
+    "failure_id": "FAIL-KNOWN-001",
+    "type": "meaning balloon",
+    "evidence_label": "RETROSPECTIVE",
+    "status": "documented failure mode",
+    "description": "The resolver imports causes, institutions, agents, consequences, truth conditions, or inferred intentions and classifies the enlarged world instead of the locked completed unit.",
+    "provenance": [
+      "IGNITION",
+      "SRC-PERSISTENCE"
+    ]
+  },
+  {
+    "failure_id": "FAIL-KNOWN-002",
+    "type": "construction-level error",
+    "evidence_label": "RETROSPECTIVE",
+    "status": "documented failure mode",
+    "description": "The resolver classifies generic facts about sentence construction, such as treating every finished sentence as Settlement or multiword contribution as Distributed.",
+    "provenance": [
+      "IGNITION",
+      "SRC-PERSISTENCE"
+    ]
+  },
+  {
+    "failure_id": "FAIL-KNOWN-003",
+    "type": "semantic dominance",
+    "evidence_label": "RETROSPECTIVE",
+    "status": "documented failure mode",
+    "description": "A salient semantic feature such as negation, effect, relation, or plurality swallows the coordinate and prevents Dimensional Conjunction.",
+    "provenance": [
+      "IGNITION",
+      "SRC-PERSISTENCE"
+    ]
+  },
+  {
+    "failure_id": "FAIL-KNOWN-004",
+    "type": "research-agenda drift",
+    "evidence_label": "RETROSPECTIVE",
+    "status": "documented failure mode",
+    "description": "A model asked to measure begins redesigning the theory, explaining philosophy, or speculating instead of preserving its assigned epistemic role.",
+    "provenance": [
+      "IGNITION"
+    ]
+  }
+]

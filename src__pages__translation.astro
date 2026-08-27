@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import demo from '../../data/translations/demo.json';
+---
+<BaseLayout title="Translation Laboratory — The Moving Invariant"><section class="hero"><div class="eyebrow">Cross-linguistic invariance assay</div><h1>Translate without leaking the answer.</h1><p class="lede">Freeze source resolution, translate independently, hide the source coordinate from the target resolver, freeze the target resolution, then compare.</p></section>
+<section><h2>Protocol</h2><ol class="research-copy"><li>Freeze source unit.</li><li>Resolve source structurally.</li><li>Translate independently.</li><li>Do not reveal source coordinate to target resolver.</li><li>Resolve translated unit.</li><li>Freeze target result.</li><li>Compare.</li><li>Preserve disagreement.</li></ol></section>
+<section><h2>Comparison statuses</h2><p class="research-copy">Exact coordinate convergence · partial axis convergence · divergent coordinate · source ambiguity · target ambiguity · translation ambiguity · instrument failure · unresolved/no completion.</p></section>
+<section><h2>Demonstration layer</h2><div class="callout"><strong>DEMONSTRATION — NOT A RESULT.</strong> The foundation build includes a schema-shaped record with no translation, resolver or outcome populated. No multilingual result has been fabricated.</div><div class="table-wrap"><table><tbody>{Object.entries(demo[0]).map(([k,v])=><tr><th>{k}</th><td>{v===null?'—':String(v)}</td></tr>)}</tbody></table></div></section>
+<section><h2>Record schema</h2><p class="research-copy">experiment_id · unit_id · source_text · source_language · source_resolution_status · source_coordinate · source_resolver · translation_text · target_language · translator_or_model · target_resolution_status · target_coordinate · target_resolver · comparison_status · blindness_conditions · notes · date · provenance · replication_status.</p></section></BaseLayout>
